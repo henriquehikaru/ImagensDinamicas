@@ -71,7 +71,7 @@
             this.lblPlacar1.Name = "lblPlacar1";
             this.lblPlacar1.Size = new System.Drawing.Size(63, 51);
             this.lblPlacar1.TabIndex = 2;
-            this.lblPlacar1.Text = "4";
+            this.lblPlacar1.Text = "0";
             this.lblPlacar1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // lblPlacar2
@@ -82,7 +82,7 @@
             this.lblPlacar2.Name = "lblPlacar2";
             this.lblPlacar2.Size = new System.Drawing.Size(63, 51);
             this.lblPlacar2.TabIndex = 5;
-            this.lblPlacar2.Text = "4";
+            this.lblPlacar2.Text = "0";
             this.lblPlacar2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label4
@@ -115,6 +115,7 @@
             this.btnReiniciar.TabIndex = 6;
             this.btnReiniciar.Text = "&Reiniciar";
             this.btnReiniciar.UseVisualStyleBackColor = true;
+            this.btnReiniciar.Click += new System.EventHandler(this.btnReiniciar_Click);
             // 
             // btnJogar
             // 
@@ -138,6 +139,7 @@
             this.btnSair.TabIndex = 8;
             this.btnSair.Text = "&Sair";
             this.btnSair.UseVisualStyleBackColor = true;
+            this.btnSair.Click += new System.EventHandler(this.btnSair_Click);
             // 
             // frmJogoDados
             // 
@@ -155,6 +157,7 @@
             this.Controls.Add(this.picJogador1);
             this.Name = "frmJogoDados";
             this.Text = "Jogo de Dados CTI";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.frmJogoDados_FormClosing);
             ((System.ComponentModel.ISupportInitialize)(this.picJogador1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picJogador2)).EndInit();
             this.ResumeLayout(false);
