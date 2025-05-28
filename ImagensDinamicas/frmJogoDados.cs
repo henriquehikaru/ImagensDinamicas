@@ -75,25 +75,22 @@ namespace ImagensDinamicas
         private int SorteioDado(PictureBox dado)
         {
             int valorDado = random.Next(1, 7);
-            // Variável String que guarda a concatenação da palavra "dado" com o valor convertido para String e
 
-            // o tipo da imagem para referenciar o arquivo na pasta "Imagens"
-            // Pega o diretório base da aplicação (geralmente bin\Debug ou bin\Release)
-            string caminhoBase = AppDomain.CurrentDomain.BaseDirectory;
+            // Pega o pai do diretório, no caso, começa da BaseDirectory, que geralmente é o diretório '/debug'
+            // que pega o diretório pai do debug, que é '/bin', duas vezes até chegar na raiz do projeto 'ImagensDinamicas'
 
-            // Cria o caminho completo para a imagem do dado
-            string arquivoDado = Path.Combine(caminhoBase, "Imagens", "dado" + valorDado.ToString() + ".jpg");
+           string caminhoProjeto = Directory.GetParent(AppDomain.CurrentDomain.BaseDirectory).Parent.Parent.FullName;
 
-            // Verifica se o arquivo existe antes de tentar carregar
+           string arquivoDado = Path.Combine(caminhoProjeto, "Imagens", "dado" + valorDado.ToString() + ".jpg");
+
+           
             if (!File.Exists(arquivoDado))
             {
                 MessageBox.Show($"Arquivo de imagem não encontrado: {arquivoDado}", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return 0;
             }
 
-            //String arquivoDado = ".\\ImagensDinamicas\\bin\\debug\\net\\Imagens\\dado" + valorDado.ToString() + ".jpg";
             // Carregar a imagem do dado usando a variável arquivoDado como parâmetro
-            // o tipo da imagem para referenciar o arquivo na pasta "Imagens" \bin\debug do projeto
             dado.Image = Image.FromFile(arquivoDado);
 
             return valorDado;
