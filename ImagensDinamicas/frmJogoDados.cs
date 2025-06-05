@@ -17,10 +17,16 @@ namespace ImagensDinamicas
         Random srt = new Random();
         private int dadoJog1, dadoJog2;
         private int contVitoria1 = 0, contVitoria2 = 0;
+        private String nomeJog1, nomeJog2;
 
-        public frmJogoDados()
+        // Método construtor da classe frmJogoDados, é o método que é executado
+        // quando é criada a nova instância dessa classe, em que você pode
+        // por exemplo, adicionar comandos que serão executados logo na criação da classe.
+        public frmJogoDados(String nomeJog1, String nomeJog2)
         {
             InitializeComponent();
+            this.nomeJog1 = nomeJog1;
+            this.nomeJog2 = nomeJog2;
         }
 
         private Random random = new Random();
@@ -38,6 +44,12 @@ namespace ImagensDinamicas
         private void btnSair_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void frmJogoDados_Load(object sender, EventArgs e)
+        {
+            lblJogador1.Text = nomeJog1;
+            lblJogador2.Text = nomeJog2;
         }
 
         private void frmJogoDados_FormClosing(object sender, FormClosingEventArgs e)

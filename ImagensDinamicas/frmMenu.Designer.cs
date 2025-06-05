@@ -35,8 +35,16 @@
             this.label3 = new System.Windows.Forms.Label();
             this.txtJog1 = new System.Windows.Forms.TextBox();
             this.txtJog2 = new System.Windows.Forms.TextBox();
+            this.picJog1 = new System.Windows.Forms.PictureBox();
+            this.picJog2 = new System.Windows.Forms.PictureBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.lblPlacar1 = new System.Windows.Forms.Label();
+            this.lblPlacar2 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.picDado)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picFoto)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picJog1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picJog2)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -76,40 +84,110 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(109, 443);
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(99, 487);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(103, 13);
+            this.label2.Size = new System.Drawing.Size(84, 20);
             this.label2.TabIndex = 5;
-            this.label2.Text = "Nome do Jogador 1:";
+            this.label2.Text = "Jogador 1:";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(109, 477);
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(485, 487);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(103, 13);
+            this.label3.Size = new System.Drawing.Size(84, 20);
             this.label3.TabIndex = 6;
-            this.label3.Text = "Nome do Jogador 2:";
+            this.label3.Text = "Jogador 2:";
             // 
             // txtJog1
             // 
-            this.txtJog1.Location = new System.Drawing.Point(230, 440);
+            this.txtJog1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtJog1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtJog1.Location = new System.Drawing.Point(189, 485);
             this.txtJog1.Name = "txtJog1";
-            this.txtJog1.Size = new System.Drawing.Size(197, 20);
+            this.txtJog1.Size = new System.Drawing.Size(197, 26);
             this.txtJog1.TabIndex = 7;
             // 
             // txtJog2
             // 
-            this.txtJog2.Location = new System.Drawing.Point(230, 474);
+            this.txtJog2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtJog2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtJog2.Location = new System.Drawing.Point(575, 485);
             this.txtJog2.Name = "txtJog2";
-            this.txtJog2.Size = new System.Drawing.Size(197, 20);
+            this.txtJog2.Size = new System.Drawing.Size(197, 26);
             this.txtJog2.TabIndex = 8;
+            // 
+            // picJog1
+            // 
+            this.picJog1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.picJog1.Location = new System.Drawing.Point(40, 487);
+            this.picJog1.Name = "picJog1";
+            this.picJog1.Size = new System.Drawing.Size(53, 72);
+            this.picJog1.TabIndex = 9;
+            this.picJog1.TabStop = false;
+            // 
+            // picJog2
+            // 
+            this.picJog2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.picJog2.Location = new System.Drawing.Point(423, 487);
+            this.picJog2.Name = "picJog2";
+            this.picJog2.Size = new System.Drawing.Size(53, 72);
+            this.picJog2.TabIndex = 10;
+            this.picJog2.TabStop = false;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(113, 539);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(70, 20);
+            this.label4.TabIndex = 11;
+            this.label4.Text = "Placar 1:";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(499, 539);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(70, 20);
+            this.label5.TabIndex = 12;
+            this.label5.Text = "Placar 2:";
+            // 
+            // lblPlacar1
+            // 
+            this.lblPlacar1.AutoSize = true;
+            this.lblPlacar1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblPlacar1.Location = new System.Drawing.Point(185, 539);
+            this.lblPlacar1.Name = "lblPlacar1";
+            this.lblPlacar1.Size = new System.Drawing.Size(19, 20);
+            this.lblPlacar1.TabIndex = 13;
+            this.lblPlacar1.Text = "#";
+            // 
+            // lblPlacar2
+            // 
+            this.lblPlacar2.AutoSize = true;
+            this.lblPlacar2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblPlacar2.Location = new System.Drawing.Point(571, 539);
+            this.lblPlacar2.Name = "lblPlacar2";
+            this.lblPlacar2.Size = new System.Drawing.Size(19, 20);
+            this.lblPlacar2.TabIndex = 14;
+            this.lblPlacar2.Text = "#";
             // 
             // frmMenu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 623);
+            this.Controls.Add(this.lblPlacar2);
+            this.Controls.Add(this.lblPlacar1);
+            this.Controls.Add(this.label5);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.picJog2);
+            this.Controls.Add(this.picJog1);
             this.Controls.Add(this.txtJog2);
             this.Controls.Add(this.txtJog1);
             this.Controls.Add(this.label3);
@@ -121,6 +199,8 @@
             this.Text = "Imagens Dinâmicas - Menu";
             ((System.ComponentModel.ISupportInitialize)(this.picDado)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picFoto)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picJog1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picJog2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -135,5 +215,11 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox txtJog1;
         private System.Windows.Forms.TextBox txtJog2;
+        private System.Windows.Forms.PictureBox picJog1;
+        private System.Windows.Forms.PictureBox picJog2;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label lblPlacar1;
+        private System.Windows.Forms.Label lblPlacar2;
     }
 }

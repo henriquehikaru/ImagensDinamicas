@@ -21,15 +21,15 @@ namespace ImagensDinamicas
 
         private void picFoto_Click(object sender, EventArgs e)
         {
-            frmCarregaFoto frm = new frmCarregaFoto();
-            frm.ShowDialog();
+            frmCarregaFoto fotos = new frmCarregaFoto();
+            //txtJog1.Text, txtJog2.Text
+            fotos.ShowDialog();
         }
 
         private void picDado_Click(object sender, EventArgs e)
         {
-            frmJogoDados frm = new frmJogoDados();
-            frm.ShowDialog();
+            frmJogoDados dados = new frmJogoDados(txtJog1.Text, txtJog2.Text);
+            dados.ShowDialog();
         }
-
     }
 }

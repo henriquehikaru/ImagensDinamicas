@@ -47,11 +47,11 @@
             // 
             this.lblJogador1.AutoSize = true;
             this.lblJogador1.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblJogador1.Location = new System.Drawing.Point(107, 37);
+            this.lblJogador1.Location = new System.Drawing.Point(110, 26);
             this.lblJogador1.Name = "lblJogador1";
-            this.lblJogador1.Size = new System.Drawing.Size(82, 23);
+            this.lblJogador1.Size = new System.Drawing.Size(87, 23);
             this.lblJogador1.TabIndex = 1;
-            this.lblJogador1.Text = "Jogador 1";
+            this.lblJogador1.Text = "Jogador 1:";
             // 
             // lblPlacar1
             // 
@@ -79,11 +79,11 @@
             // 
             this.lblJogador2.AutoSize = true;
             this.lblJogador2.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblJogador2.Location = new System.Drawing.Point(375, 37);
+            this.lblJogador2.Location = new System.Drawing.Point(374, 26);
             this.lblJogador2.Name = "lblJogador2";
-            this.lblJogador2.Size = new System.Drawing.Size(85, 23);
+            this.lblJogador2.Size = new System.Drawing.Size(90, 23);
             this.lblJogador2.TabIndex = 4;
-            this.lblJogador2.Text = "Jogador 2";
+            this.lblJogador2.Text = "Jogador 2:";
             // 
             // btnReiniciar
             // 
@@ -158,6 +158,7 @@
             this.Name = "frmJogoDados";
             this.Text = "Jogo de Dados CTI";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.frmJogoDados_FormClosing);
+            this.Load += new System.EventHandler(this.frmJogoDados_Load);
             ((System.ComponentModel.ISupportInitialize)(this.picJogador2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picJogador1)).EndInit();
             this.ResumeLayout(false);
