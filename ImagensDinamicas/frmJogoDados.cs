@@ -59,6 +59,7 @@ namespace ImagensDinamicas
             {
                 e.Cancel = true;
             }
+            
         }
 
         private void btnJogar_Click(object sender, EventArgs e)

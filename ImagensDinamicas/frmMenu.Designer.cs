@@ -39,8 +39,8 @@
             this.picJog2 = new System.Windows.Forms.PictureBox();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
-            this.lblPlacar1 = new System.Windows.Forms.Label();
-            this.lblPlacar2 = new System.Windows.Forms.Label();
+            this.lblPlacarMenu1 = new System.Windows.Forms.Label();
+            this.lblPlacarMenu2 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.picDado)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picFoto)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picJog1)).BeginInit();
@@ -157,33 +157,33 @@
             this.label5.TabIndex = 12;
             this.label5.Text = "Placar 2:";
             // 
-            // lblPlacar1
+            // lblPlacarMenu1
             // 
-            this.lblPlacar1.AutoSize = true;
-            this.lblPlacar1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblPlacar1.Location = new System.Drawing.Point(185, 539);
-            this.lblPlacar1.Name = "lblPlacar1";
-            this.lblPlacar1.Size = new System.Drawing.Size(19, 20);
-            this.lblPlacar1.TabIndex = 13;
-            this.lblPlacar1.Text = "#";
+            this.lblPlacarMenu1.AutoSize = true;
+            this.lblPlacarMenu1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblPlacarMenu1.Location = new System.Drawing.Point(185, 539);
+            this.lblPlacarMenu1.Name = "lblPlacarMenu1";
+            this.lblPlacarMenu1.Size = new System.Drawing.Size(19, 20);
+            this.lblPlacarMenu1.TabIndex = 13;
+            this.lblPlacarMenu1.Text = "#";
             // 
-            // lblPlacar2
+            // lblPlacarMenu2
             // 
-            this.lblPlacar2.AutoSize = true;
-            this.lblPlacar2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblPlacar2.Location = new System.Drawing.Point(571, 539);
-            this.lblPlacar2.Name = "lblPlacar2";
-            this.lblPlacar2.Size = new System.Drawing.Size(19, 20);
-            this.lblPlacar2.TabIndex = 14;
-            this.lblPlacar2.Text = "#";
+            this.lblPlacarMenu2.AutoSize = true;
+            this.lblPlacarMenu2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblPlacarMenu2.Location = new System.Drawing.Point(571, 539);
+            this.lblPlacarMenu2.Name = "lblPlacarMenu2";
+            this.lblPlacarMenu2.Size = new System.Drawing.Size(19, 20);
+            this.lblPlacarMenu2.TabIndex = 14;
+            this.lblPlacarMenu2.Text = "#";
             // 
             // frmMenu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 623);
-            this.Controls.Add(this.lblPlacar2);
-            this.Controls.Add(this.lblPlacar1);
+            this.Controls.Add(this.lblPlacarMenu2);
+            this.Controls.Add(this.lblPlacarMenu1);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.picJog2);
@@ -219,7 +219,7 @@
         private System.Windows.Forms.PictureBox picJog2;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label lblPlacar1;
-        private System.Windows.Forms.Label lblPlacar2;
+        private System.Windows.Forms.Label lblPlacarMenu1;
+        private System.Windows.Forms.Label lblPlacarMenu2;
     }
 }
