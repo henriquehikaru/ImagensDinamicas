@@ -50,20 +50,23 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(253, 59);
+            this.label1.Font = new System.Drawing.Font("Comic Sans MS", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(353, 73);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(277, 31);
+            this.label1.Size = new System.Drawing.Size(339, 48);
             this.label1.TabIndex = 2;
             this.label1.Text = "Escolha uma opção:";
+            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // picDado
             // 
             this.picDado.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.picDado.Image = global::ImagensDinamicas.Properties.Resources.dado_icon;
-            this.picDado.Location = new System.Drawing.Point(433, 131);
+            this.picDado.Location = new System.Drawing.Point(577, 161);
+            this.picDado.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.picDado.Name = "picDado";
-            this.picDado.Size = new System.Drawing.Size(250, 250);
+            this.picDado.Size = new System.Drawing.Size(333, 307);
             this.picDado.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picDado.TabIndex = 4;
             this.picDado.TabStop = false;
@@ -73,9 +76,10 @@
             // 
             this.picFoto.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.picFoto.Image = global::ImagensDinamicas.Properties.Resources.camera_icon;
-            this.picFoto.Location = new System.Drawing.Point(112, 131);
+            this.picFoto.Location = new System.Drawing.Point(149, 161);
+            this.picFoto.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.picFoto.Name = "picFoto";
-            this.picFoto.Size = new System.Drawing.Size(250, 250);
+            this.picFoto.Size = new System.Drawing.Size(333, 307);
             this.picFoto.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picFoto.TabIndex = 3;
             this.picFoto.TabStop = false;
@@ -84,20 +88,22 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(99, 487);
+            this.label2.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(132, 599);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(84, 20);
+            this.label2.Size = new System.Drawing.Size(111, 28);
             this.label2.TabIndex = 5;
             this.label2.Text = "Jogador 1:";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(485, 487);
+            this.label3.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(647, 599);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(84, 20);
+            this.label3.Size = new System.Drawing.Size(114, 28);
             this.label3.TabIndex = 6;
             this.label3.Text = "Jogador 2:";
             // 
@@ -105,26 +111,30 @@
             // 
             this.txtJog1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtJog1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtJog1.Location = new System.Drawing.Point(189, 485);
+            this.txtJog1.Location = new System.Drawing.Point(252, 597);
+            this.txtJog1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtJog1.Name = "txtJog1";
-            this.txtJog1.Size = new System.Drawing.Size(197, 26);
+            this.txtJog1.Size = new System.Drawing.Size(262, 30);
             this.txtJog1.TabIndex = 7;
             // 
             // txtJog2
             // 
             this.txtJog2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtJog2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtJog2.Location = new System.Drawing.Point(575, 485);
+            this.txtJog2.Location = new System.Drawing.Point(767, 597);
+            this.txtJog2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtJog2.Name = "txtJog2";
-            this.txtJog2.Size = new System.Drawing.Size(197, 26);
+            this.txtJog2.Size = new System.Drawing.Size(262, 30);
             this.txtJog2.TabIndex = 8;
             // 
             // picJog1
             // 
             this.picJog1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.picJog1.Location = new System.Drawing.Point(40, 487);
+            this.picJog1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.picJog1.Location = new System.Drawing.Point(53, 599);
+            this.picJog1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.picJog1.Name = "picJog1";
-            this.picJog1.Size = new System.Drawing.Size(53, 72);
+            this.picJog1.Size = new System.Drawing.Size(71, 89);
             this.picJog1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picJog1.TabIndex = 9;
             this.picJog1.TabStop = false;
@@ -132,9 +142,11 @@
             // picJog2
             // 
             this.picJog2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.picJog2.Location = new System.Drawing.Point(423, 487);
+            this.picJog2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.picJog2.Location = new System.Drawing.Point(564, 599);
+            this.picJog2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.picJog2.Name = "picJog2";
-            this.picJog2.Size = new System.Drawing.Size(53, 72);
+            this.picJog2.Size = new System.Drawing.Size(71, 89);
             this.picJog2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picJog2.TabIndex = 10;
             this.picJog2.TabStop = false;
@@ -142,48 +154,54 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(113, 539);
+            this.label4.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(151, 663);
+            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(70, 20);
+            this.label4.Size = new System.Drawing.Size(88, 28);
             this.label4.TabIndex = 11;
             this.label4.Text = "Placar 1:";
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(499, 539);
+            this.label5.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(665, 663);
+            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(70, 20);
+            this.label5.Size = new System.Drawing.Size(91, 28);
             this.label5.TabIndex = 12;
             this.label5.Text = "Placar 2:";
             // 
             // lblPlacarMenu1
             // 
-            this.lblPlacarMenu1.AutoSize = true;
-            this.lblPlacarMenu1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblPlacarMenu1.Location = new System.Drawing.Point(185, 539);
+            this.lblPlacarMenu1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lblPlacarMenu1.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblPlacarMenu1.Location = new System.Drawing.Point(252, 653);
+            this.lblPlacarMenu1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblPlacarMenu1.Name = "lblPlacarMenu1";
-            this.lblPlacarMenu1.Size = new System.Drawing.Size(19, 20);
+            this.lblPlacarMenu1.Size = new System.Drawing.Size(84, 47);
             this.lblPlacarMenu1.TabIndex = 13;
-            this.lblPlacarMenu1.Text = "#";
+            this.lblPlacarMenu1.Text = "0";
+            this.lblPlacarMenu1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // lblPlacarMenu2
             // 
-            this.lblPlacarMenu2.AutoSize = true;
-            this.lblPlacarMenu2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblPlacarMenu2.Location = new System.Drawing.Point(571, 539);
+            this.lblPlacarMenu2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lblPlacarMenu2.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblPlacarMenu2.Location = new System.Drawing.Point(767, 653);
+            this.lblPlacarMenu2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblPlacarMenu2.Name = "lblPlacarMenu2";
-            this.lblPlacarMenu2.Size = new System.Drawing.Size(19, 20);
+            this.lblPlacarMenu2.Size = new System.Drawing.Size(84, 47);
             this.lblPlacarMenu2.TabIndex = 14;
-            this.lblPlacarMenu2.Text = "#";
+            this.lblPlacarMenu2.Text = "0";
+            this.lblPlacarMenu2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // frmMenu
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 623);
+            this.ClientSize = new System.Drawing.Size(1067, 942);
             this.Controls.Add(this.lblPlacarMenu2);
             this.Controls.Add(this.lblPlacarMenu1);
             this.Controls.Add(this.label5);
@@ -197,6 +215,7 @@
             this.Controls.Add(this.picDado);
             this.Controls.Add(this.picFoto);
             this.Controls.Add(this.label1);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "frmMenu";
             this.Text = "Imagens Dinâmicas - Menu";
             ((System.ComponentModel.ISupportInitialize)(this.picDado)).EndInit();

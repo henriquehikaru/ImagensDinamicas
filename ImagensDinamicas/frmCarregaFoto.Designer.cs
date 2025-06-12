@@ -44,10 +44,10 @@
             // picJogador1
             // 
             this.picJogador1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.picJogador1.Location = new System.Drawing.Point(44, 151);
-            this.picJogador1.Margin = new System.Windows.Forms.Padding(2);
+            this.picJogador1.Location = new System.Drawing.Point(59, 186);
+            this.picJogador1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.picJogador1.Name = "picJogador1";
-            this.picJogador1.Size = new System.Drawing.Size(113, 163);
+            this.picJogador1.Size = new System.Drawing.Size(150, 200);
             this.picJogador1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picJogador1.TabIndex = 4;
             this.picJogador1.TabStop = false;
@@ -56,10 +56,10 @@
             // btnCarregarFotoJog1
             // 
             this.btnCarregarFotoJog1.AutoSize = true;
-            this.btnCarregarFotoJog1.Location = new System.Drawing.Point(60, 322);
-            this.btnCarregarFotoJog1.Margin = new System.Windows.Forms.Padding(2);
+            this.btnCarregarFotoJog1.Location = new System.Drawing.Point(80, 396);
+            this.btnCarregarFotoJog1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnCarregarFotoJog1.Name = "btnCarregarFotoJog1";
-            this.btnCarregarFotoJog1.Size = new System.Drawing.Size(81, 23);
+            this.btnCarregarFotoJog1.Size = new System.Drawing.Size(108, 28);
             this.btnCarregarFotoJog1.TabIndex = 7;
             this.btnCarregarFotoJog1.Text = "Carregar &Foto";
             this.btnCarregarFotoJog1.UseVisualStyleBackColor = true;
@@ -69,10 +69,10 @@
             // chkJog1
             // 
             this.chkJog1.AutoSize = true;
-            this.chkJog1.Location = new System.Drawing.Point(44, 118);
-            this.chkJog1.Margin = new System.Windows.Forms.Padding(2);
+            this.chkJog1.Location = new System.Drawing.Point(59, 145);
+            this.chkJog1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.chkJog1.Name = "chkJog1";
-            this.chkJog1.Size = new System.Drawing.Size(71, 17);
+            this.chkJog1.Size = new System.Drawing.Size(85, 20);
             this.chkJog1.TabIndex = 8;
             this.chkJog1.Text = "Com foto:";
             this.chkJog1.UseVisualStyleBackColor = true;
@@ -85,10 +85,10 @@
             // chkJog2
             // 
             this.chkJog2.AutoSize = true;
-            this.chkJog2.Location = new System.Drawing.Point(257, 118);
-            this.chkJog2.Margin = new System.Windows.Forms.Padding(2);
+            this.chkJog2.Location = new System.Drawing.Point(343, 145);
+            this.chkJog2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.chkJog2.Name = "chkJog2";
-            this.chkJog2.Size = new System.Drawing.Size(71, 17);
+            this.chkJog2.Size = new System.Drawing.Size(85, 20);
             this.chkJog2.TabIndex = 11;
             this.chkJog2.Text = "Com foto:";
             this.chkJog2.UseVisualStyleBackColor = true;
@@ -97,10 +97,10 @@
             // btnCarregarFotoJog2
             // 
             this.btnCarregarFotoJog2.AutoSize = true;
-            this.btnCarregarFotoJog2.Location = new System.Drawing.Point(273, 322);
-            this.btnCarregarFotoJog2.Margin = new System.Windows.Forms.Padding(2);
+            this.btnCarregarFotoJog2.Location = new System.Drawing.Point(364, 396);
+            this.btnCarregarFotoJog2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnCarregarFotoJog2.Name = "btnCarregarFotoJog2";
-            this.btnCarregarFotoJog2.Size = new System.Drawing.Size(81, 23);
+            this.btnCarregarFotoJog2.Size = new System.Drawing.Size(108, 28);
             this.btnCarregarFotoJog2.TabIndex = 10;
             this.btnCarregarFotoJog2.Text = "Carregar &Foto";
             this.btnCarregarFotoJog2.UseVisualStyleBackColor = true;
@@ -110,10 +110,10 @@
             // picJogador2
             // 
             this.picJogador2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.picJogador2.Location = new System.Drawing.Point(257, 151);
-            this.picJogador2.Margin = new System.Windows.Forms.Padding(2);
+            this.picJogador2.Location = new System.Drawing.Point(343, 186);
+            this.picJogador2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.picJogador2.Name = "picJogador2";
-            this.picJogador2.Size = new System.Drawing.Size(113, 163);
+            this.picJogador2.Size = new System.Drawing.Size(150, 200);
             this.picJogador2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picJogador2.TabIndex = 9;
             this.picJogador2.TabStop = false;
@@ -123,9 +123,10 @@
             // 
             this.lblJogador2.AutoSize = true;
             this.lblJogador2.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblJogador2.Location = new System.Drawing.Point(268, 56);
+            this.lblJogador2.Location = new System.Drawing.Point(357, 69);
+            this.lblJogador2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblJogador2.Name = "lblJogador2";
-            this.lblJogador2.Size = new System.Drawing.Size(90, 23);
+            this.lblJogador2.Size = new System.Drawing.Size(114, 28);
             this.lblJogador2.TabIndex = 13;
             this.lblJogador2.Text = "Jogador 2:";
             // 
@@ -133,17 +134,18 @@
             // 
             this.lblJogador1.AutoSize = true;
             this.lblJogador1.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblJogador1.Location = new System.Drawing.Point(54, 56);
+            this.lblJogador1.Location = new System.Drawing.Point(72, 69);
+            this.lblJogador1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblJogador1.Name = "lblJogador1";
-            this.lblJogador1.Size = new System.Drawing.Size(87, 23);
+            this.lblJogador1.Size = new System.Drawing.Size(111, 28);
             this.lblJogador1.TabIndex = 12;
             this.lblJogador1.Text = "Jogador 1:";
             // 
             // frmCarregaFoto
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(423, 366);
+            this.ClientSize = new System.Drawing.Size(564, 450);
             this.Controls.Add(this.lblJogador2);
             this.Controls.Add(this.lblJogador1);
             this.Controls.Add(this.chkJog2);
@@ -152,10 +154,11 @@
             this.Controls.Add(this.chkJog1);
             this.Controls.Add(this.btnCarregarFotoJog1);
             this.Controls.Add(this.picJogador1);
-            this.Margin = new System.Windows.Forms.Padding(2);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "frmCarregaFoto";
             this.Text = "Carregar Foto";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.frmCarregaFoto_FormClosed);
+            this.Load += new System.EventHandler(this.frmCarregaFoto_Load);
             ((System.ComponentModel.ISupportInitialize)(this.picJogador1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picJogador2)).EndInit();
             this.ResumeLayout(false);

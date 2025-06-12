@@ -56,8 +56,23 @@ namespace ImagensDinamicas
 
         private void frmJogoDados_Load(object sender, EventArgs e)
         {
-            lblJogador1.Text = this.nomeJog1;
-            lblJogador2.Text = this.nomeJog2;
+            if (String.IsNullOrWhiteSpace(nomeJog1))
+            {
+                lblJogador1.Text = "Jogador 1";
+            }
+            else
+            {
+                lblJogador1.Text = this.nomeJog1;
+            }
+
+            if (String.IsNullOrWhiteSpace(nomeJog2))
+            {
+                lblJogador2.Text = "Jogador 2";
+            }
+            else
+            {
+                lblJogador2.Text = this.nomeJog2;
+            }
         }
 
         private void frmJogoDados_FormClosing(object sender, FormClosingEventArgs e)

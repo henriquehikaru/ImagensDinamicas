@@ -15,8 +15,9 @@ namespace ImagensDinamicas
     {
         string caminhoProjeto = Directory.GetParent(AppDomain.CurrentDomain.BaseDirectory).Parent.Parent.FullName;
 
-        public PictureBox FotoJog1 { get; private set; }
-        public PictureBox FotoJog2 { get; private set; }
+        public Image FotoJog1Image { get; set; }
+        public Image FotoJog2Image { get; set; }
+
         public frmCarregaFoto(String lblJogador1, String lblJogador2, Image picJogador1, Image picJogador2)
         {
             InitializeComponent();
@@ -32,7 +33,7 @@ namespace ImagensDinamicas
             if (openFDFoto.ShowDialog() == DialogResult.OK)
             {
                 picJogador1.Image = Image.FromFile(openFDFoto.FileName);
-                this.FotoJog1 = picJogador1;
+                FotoJog1Image = picJogador1.Image;
             }
             else
             {
@@ -46,7 +47,7 @@ namespace ImagensDinamicas
             if (openFDFoto.ShowDialog() == DialogResult.OK)
             {
                 picJogador2.Image = Image.FromFile(openFDFoto.FileName);
-                this.FotoJog2 = picJogador2;
+                FotoJog1Image = picJogador2.Image;
             }
             else
             {
@@ -60,15 +61,16 @@ namespace ImagensDinamicas
             {
                 string arquivoDado = Path.Combine(caminhoProjeto, "Imagens", "sem_imagem_avatar" + ".png");
                 picJogador1.Image = Image.FromFile(arquivoDado);
-                this.FotoJog1 = picJogador1;
+                FotoJog1Image = picJogador1.Image;
             }
 
             if (picJogador2.Image == null)
             {
                 string arquivoDado = Path.Combine(caminhoProjeto, "Imagens", "sem_imagem_avatar" + ".png");
                 picJogador2.Image = Image.FromFile(arquivoDado);
-                this.FotoJog2 = picJogador2;
+                FotoJog2Image = picJogador2.Image;
             }
+
         }
 
         private void chkJog1_CheckedChanged(object sender, EventArgs e)
@@ -98,6 +100,19 @@ namespace ImagensDinamicas
                 btnCarregarFotoJog2.Visible = false;
             }
             
+        }
+
+        private void frmCarregaFoto_Load(object sender, EventArgs e)
+        {
+            if (String.IsNullOrWhiteSpace(lblJogador1.Text))
+            {
+                lblJogador1.Text = "Jogador 1";
+            }
+
+            if (String.IsNullOrWhiteSpace(lblJogador2.Text))
+            {
+                lblJogador2.Text = "Jogador 2";
+            }
         }
     }
 }
