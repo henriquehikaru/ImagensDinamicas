@@ -39,15 +39,19 @@
             this.tmrAnimacaoDado = new System.Windows.Forms.Timer(this.components);
             this.picJogador2 = new System.Windows.Forms.PictureBox();
             this.picJogador1 = new System.Windows.Forms.PictureBox();
+            this.picJog1 = new System.Windows.Forms.PictureBox();
+            this.picJog2 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.picJogador2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picJogador1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picJog1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picJog2)).BeginInit();
             this.SuspendLayout();
             // 
             // lblJogador1
             // 
             this.lblJogador1.AutoSize = true;
             this.lblJogador1.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblJogador1.Location = new System.Drawing.Point(110, 26);
+            this.lblJogador1.Location = new System.Drawing.Point(98, 135);
             this.lblJogador1.Name = "lblJogador1";
             this.lblJogador1.Size = new System.Drawing.Size(87, 23);
             this.lblJogador1.TabIndex = 1;
@@ -57,7 +61,7 @@
             // 
             this.lblPlacar1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.lblPlacar1.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblPlacar1.Location = new System.Drawing.Point(126, 282);
+            this.lblPlacar1.Location = new System.Drawing.Point(114, 391);
             this.lblPlacar1.Name = "lblPlacar1";
             this.lblPlacar1.Size = new System.Drawing.Size(63, 51);
             this.lblPlacar1.TabIndex = 2;
@@ -68,7 +72,7 @@
             // 
             this.lblPlacar2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.lblPlacar2.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblPlacar2.Location = new System.Drawing.Point(388, 282);
+            this.lblPlacar2.Location = new System.Drawing.Point(351, 391);
             this.lblPlacar2.Name = "lblPlacar2";
             this.lblPlacar2.Size = new System.Drawing.Size(63, 51);
             this.lblPlacar2.TabIndex = 5;
@@ -79,7 +83,7 @@
             // 
             this.lblJogador2.AutoSize = true;
             this.lblJogador2.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblJogador2.Location = new System.Drawing.Point(374, 26);
+            this.lblJogador2.Location = new System.Drawing.Point(337, 135);
             this.lblJogador2.Name = "lblJogador2";
             this.lblJogador2.Size = new System.Drawing.Size(90, 23);
             this.lblJogador2.TabIndex = 4;
@@ -89,7 +93,7 @@
             // 
             this.btnReiniciar.AutoSize = true;
             this.btnReiniciar.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnReiniciar.Location = new System.Drawing.Point(111, 376);
+            this.btnReiniciar.Location = new System.Drawing.Point(533, 202);
             this.btnReiniciar.Name = "btnReiniciar";
             this.btnReiniciar.Size = new System.Drawing.Size(86, 33);
             this.btnReiniciar.TabIndex = 6;
@@ -101,9 +105,9 @@
             // 
             this.btnJogar.AutoSize = true;
             this.btnJogar.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnJogar.Location = new System.Drawing.Point(249, 376);
+            this.btnJogar.Location = new System.Drawing.Point(533, 241);
             this.btnJogar.Name = "btnJogar";
-            this.btnJogar.Size = new System.Drawing.Size(75, 33);
+            this.btnJogar.Size = new System.Drawing.Size(86, 33);
             this.btnJogar.TabIndex = 7;
             this.btnJogar.Text = "&Jogar";
             this.btnJogar.UseVisualStyleBackColor = true;
@@ -113,9 +117,9 @@
             // 
             this.btnSair.AutoSize = true;
             this.btnSair.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSair.Location = new System.Drawing.Point(379, 376);
+            this.btnSair.Location = new System.Drawing.Point(533, 280);
             this.btnSair.Name = "btnSair";
-            this.btnSair.Size = new System.Drawing.Size(75, 33);
+            this.btnSair.Size = new System.Drawing.Size(86, 33);
             this.btnSair.TabIndex = 8;
             this.btnSair.Text = "&Sair";
             this.btnSair.UseVisualStyleBackColor = true;
@@ -124,7 +128,7 @@
             // picJogador2
             // 
             this.picJogador2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.picJogador2.Location = new System.Drawing.Point(317, 69);
+            this.picJogador2.Location = new System.Drawing.Point(280, 178);
             this.picJogador2.Name = "picJogador2";
             this.picJogador2.Size = new System.Drawing.Size(200, 200);
             this.picJogador2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -134,18 +138,40 @@
             // picJogador1
             // 
             this.picJogador1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.picJogador1.Location = new System.Drawing.Point(55, 69);
+            this.picJogador1.Location = new System.Drawing.Point(43, 178);
             this.picJogador1.Name = "picJogador1";
             this.picJogador1.Size = new System.Drawing.Size(200, 200);
             this.picJogador1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picJogador1.TabIndex = 0;
             this.picJogador1.TabStop = false;
             // 
+            // picJog1
+            // 
+            this.picJog1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.picJog1.Location = new System.Drawing.Point(102, 38);
+            this.picJog1.Name = "picJog1";
+            this.picJog1.Size = new System.Drawing.Size(75, 94);
+            this.picJog1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picJog1.TabIndex = 10;
+            this.picJog1.TabStop = false;
+            // 
+            // picJog2
+            // 
+            this.picJog2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.picJog2.Location = new System.Drawing.Point(341, 38);
+            this.picJog2.Name = "picJog2";
+            this.picJog2.Size = new System.Drawing.Size(75, 94);
+            this.picJog2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picJog2.TabIndex = 11;
+            this.picJog2.TabStop = false;
+            // 
             // frmJogoDados
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(653, 450);
+            this.Controls.Add(this.picJog2);
+            this.Controls.Add(this.picJog1);
             this.Controls.Add(this.btnSair);
             this.Controls.Add(this.btnJogar);
             this.Controls.Add(this.btnReiniciar);
@@ -161,6 +187,8 @@
             this.Load += new System.EventHandler(this.frmJogoDados_Load);
             ((System.ComponentModel.ISupportInitialize)(this.picJogador2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picJogador1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picJog1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picJog2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -178,5 +206,7 @@
         private System.Windows.Forms.Button btnJogar;
         private System.Windows.Forms.Button btnSair;
         private System.Windows.Forms.Timer tmrAnimacaoDado;
+        private System.Windows.Forms.PictureBox picJog1;
+        private System.Windows.Forms.PictureBox picJog2;
     }
 }

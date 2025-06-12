@@ -16,17 +16,25 @@ namespace ImagensDinamicas
     {
         Random srt = new Random();
         private int dadoJog1, dadoJog2;
-        private int contVitoria1 = 0, contVitoria2 = 0;
+        //private int contVitoria1 = 0, contVitoria2 = 0;
         private String nomeJog1, nomeJog2;
+
+        public int contVitoria1 { get; private set; }
+        public int contVitoria2 { get; private set; }
+
+
+        
 
         // Método construtor da classe frmJogoDados, é o método que é executado
         // quando é criada a nova instância dessa classe, em que você pode
         // por exemplo, adicionar comandos que serão executados logo na criação da classe.
-        public frmJogoDados(String nomeJog1, String nomeJog2)
+        public frmJogoDados(String nomeJog1, String nomeJog2, Image picJog1, Image picJog2)
         {
             InitializeComponent();
             this.nomeJog1 = nomeJog1;
             this.nomeJog2 = nomeJog2;
+            this.picJog1.Image = picJog1;
+            this.picJog2.Image = picJog2;   
         }
 
         private Random random = new Random();
@@ -48,8 +56,8 @@ namespace ImagensDinamicas
 
         private void frmJogoDados_Load(object sender, EventArgs e)
         {
-            lblJogador1.Text = nomeJog1;
-            lblJogador2.Text = nomeJog2;
+            lblJogador1.Text = this.nomeJog1;
+            lblJogador2.Text = this.nomeJog2;
         }
 
         private void frmJogoDados_FormClosing(object sender, FormClosingEventArgs e)

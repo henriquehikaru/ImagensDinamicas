@@ -125,6 +125,7 @@
             this.picJog1.Location = new System.Drawing.Point(40, 487);
             this.picJog1.Name = "picJog1";
             this.picJog1.Size = new System.Drawing.Size(53, 72);
+            this.picJog1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picJog1.TabIndex = 9;
             this.picJog1.TabStop = false;
             // 
@@ -134,6 +135,7 @@
             this.picJog2.Location = new System.Drawing.Point(423, 487);
             this.picJog2.Name = "picJog2";
             this.picJog2.Size = new System.Drawing.Size(53, 72);
+            this.picJog2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picJog2.TabIndex = 10;
             this.picJog2.TabStop = false;
             // 
