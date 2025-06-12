@@ -47,7 +47,7 @@ namespace ImagensDinamicas
             if (openFDFoto.ShowDialog() == DialogResult.OK)
             {
                 picJogador2.Image = Image.FromFile(openFDFoto.FileName);
-                FotoJog1Image = picJogador2.Image;
+                FotoJog2Image = picJogador2.Image;
             }
             else
             {
