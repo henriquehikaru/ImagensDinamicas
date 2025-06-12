@@ -54,7 +54,7 @@
             this.label1.Location = new System.Drawing.Point(353, 73);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(339, 48);
+            this.label1.Size = new System.Drawing.Size(327, 45);
             this.label1.TabIndex = 2;
             this.label1.Text = "Escolha uma opção:";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -64,7 +64,7 @@
             this.picDado.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.picDado.Image = global::ImagensDinamicas.Properties.Resources.dado_icon;
             this.picDado.Location = new System.Drawing.Point(577, 161);
-            this.picDado.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.picDado.Margin = new System.Windows.Forms.Padding(4);
             this.picDado.Name = "picDado";
             this.picDado.Size = new System.Drawing.Size(333, 307);
             this.picDado.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -77,7 +77,7 @@
             this.picFoto.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.picFoto.Image = global::ImagensDinamicas.Properties.Resources.camera_icon;
             this.picFoto.Location = new System.Drawing.Point(149, 161);
-            this.picFoto.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.picFoto.Margin = new System.Windows.Forms.Padding(4);
             this.picFoto.Name = "picFoto";
             this.picFoto.Size = new System.Drawing.Size(333, 307);
             this.picFoto.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -112,7 +112,7 @@
             this.txtJog1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtJog1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtJog1.Location = new System.Drawing.Point(252, 597);
-            this.txtJog1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtJog1.Margin = new System.Windows.Forms.Padding(4);
             this.txtJog1.Name = "txtJog1";
             this.txtJog1.Size = new System.Drawing.Size(262, 30);
             this.txtJog1.TabIndex = 7;
@@ -122,7 +122,7 @@
             this.txtJog2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtJog2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtJog2.Location = new System.Drawing.Point(767, 597);
-            this.txtJog2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtJog2.Margin = new System.Windows.Forms.Padding(4);
             this.txtJog2.Name = "txtJog2";
             this.txtJog2.Size = new System.Drawing.Size(262, 30);
             this.txtJog2.TabIndex = 8;
@@ -132,7 +132,7 @@
             this.picJog1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.picJog1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.picJog1.Location = new System.Drawing.Point(53, 599);
-            this.picJog1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.picJog1.Margin = new System.Windows.Forms.Padding(4);
             this.picJog1.Name = "picJog1";
             this.picJog1.Size = new System.Drawing.Size(71, 89);
             this.picJog1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -144,7 +144,7 @@
             this.picJog2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.picJog2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.picJog2.Location = new System.Drawing.Point(564, 599);
-            this.picJog2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.picJog2.Margin = new System.Windows.Forms.Padding(4);
             this.picJog2.Name = "picJog2";
             this.picJog2.Size = new System.Drawing.Size(71, 89);
             this.picJog2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -215,7 +215,7 @@
             this.Controls.Add(this.picDado);
             this.Controls.Add(this.picFoto);
             this.Controls.Add(this.label1);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "frmMenu";
             this.Text = "Imagens Dinâmicas - Menu";
             ((System.ComponentModel.ISupportInitialize)(this.picDado)).EndInit();

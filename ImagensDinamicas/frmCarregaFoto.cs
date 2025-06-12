@@ -29,7 +29,7 @@ namespace ImagensDinamicas
 
         private void btnCarregarFotoJog1_Click(object sender, EventArgs e)
         {
-            openFDFoto.Filter = "JPEG (*jpg)|*.jpg|" + "Bitmaps (*.bmp)|*.bmp|" + "JFIF (*.jfif)|*.jfif";
+            openFDFoto.Filter = "JPG (*jpg)|*.jpg|" + "JPEG (*jpeg)|*.jpeg|" + "Bitmaps (*.bmp)|*.bmp|" + "JFIF (*.jfif)|*.jfif";
             if (openFDFoto.ShowDialog() == DialogResult.OK)
             {
                 picJogador1.Image = Image.FromFile(openFDFoto.FileName);
@@ -43,7 +43,7 @@ namespace ImagensDinamicas
 
         private void btnCarregarFotoJog2_Click(object sender, EventArgs e)
         {
-            openFDFoto.Filter = "JPEG (*jpg)|*.jpg|" + "Bitmaps (*.bmp)|*.bmp|" + "JFIF (*.jfif)|*.jfif";
+            openFDFoto.Filter = "JPG (*jpg)|*.jpg|" + "JPEG (*jpeg)|*.jpeg|" + "Bitmaps (*.bmp)|*.bmp|" + "JFIF (*.jfif)|*.jfif";
             if (openFDFoto.ShowDialog() == DialogResult.OK)
             {
                 picJogador2.Image = Image.FromFile(openFDFoto.FileName);
